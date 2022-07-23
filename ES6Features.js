@@ -130,7 +130,17 @@ function divideWithoutDefaultParams(divident, devisor) {
     strings.forEach(string => output = output + ' ' + string)
     console.log(output)
   }
-  
   concat('this', 'is', 'an', 'example')
-  // Object.assign() and Object.is()
-  // Classes
+  
+  //Ternary Operator
+  // Syntax: condition ? <expression if true> : <expression if false>
+  // IF ELSE 
+  let authenticated = true
+  if (authenticated) {
+    console.log('you are authorized')
+  } else {
+    console.log('you are unauthorized')
+  }
+  //About if else can be changed as Ternary operator
+  authenticated = false
+  authenticated ? console.log('you are authorized') : console.log('you are unauthorized');
